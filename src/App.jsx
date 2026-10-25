@@ -5,7 +5,7 @@ import TaskForm from './components/functional/TaskForm';
 import TaskList from './components/functional/TaskList';
 import MetricsSummary from './components/functional/MetricsSummary';
 import ActivityLogger from './components/class/ActivityLogger';
-
+import './App.css'
 const MainApp = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
   
